@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #F1E4E7;
+    /* background-image: url(./Images/Jelena-photo.jpg);
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.90;
+    position: relative;
+    /* background-position: center; */
+
+} 
