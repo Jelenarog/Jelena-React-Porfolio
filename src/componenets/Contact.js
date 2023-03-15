@@ -1,7 +1,15 @@
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from "./utils/helpers";
 import React, { useState } from "react";
-import emailjs from "emailjs-com";
+// import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
+
+// const emailParams = {
+//     name: 'James',
+//     notes: 'Check this out!'
+// };
+
+
 
 function Form() {
   // Create state variables for the fields in the form
@@ -39,9 +47,12 @@ function Form() {
       return;
     }
     else {
-      emailjs.sendForm('service_v0hofgm', 'template_hgmdblo', e.target ).then(res=>{
-        console.log(res);
-      }).catch(err=> console.log(err));
+      emailjs.send('service_ogffocu','template_ztxgvpn', {name, message, email}, 'dcYWRObc2znj37P7C')
+      .then((response) => {
+         console.log('SUCCESS!', response.status, response.text);
+      }, (err) => {
+         console.log('FAILED...', err);
+      });
     }
 
 
