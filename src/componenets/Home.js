@@ -32,7 +32,7 @@ export default function Home() {
       <div className="text-center">
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Hello,</h1>
         <p className="mt-6 text-lg font-bold leading-8 text-gray-600 sm:text-4xl" >"My name is Jelena and I am a junior full stack developer."</p>
-      
+
       </div>
     </div>
     <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">

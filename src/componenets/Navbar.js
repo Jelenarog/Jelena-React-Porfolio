@@ -24,7 +24,7 @@ function Navbar({ currentPage, handlePageChange }) {
             <div className="hidden md:flex flex space-x-5 py-2 px-3 shadow-xlg">
               <a
                 href="#home"
-                className="text-sm font-semibold leading-6 text-gray-900 "
+                className="text-sm font-semibold leading-6 text-gray-900 active:bg-violet-700 "
                 onClick={() => handlePageChange("Home")}
               >
                 Home
@@ -32,7 +32,7 @@ function Navbar({ currentPage, handlePageChange }) {
 
               <a
                 href="#about"
-                className="text-sm font-semibold leading-6 text-gray-900"
+                className="text-sm font-semibold leading-6 text-gray-900 active:bg-violet-700"
                 onClick={() => handlePageChange("About")}
               >
                 About
