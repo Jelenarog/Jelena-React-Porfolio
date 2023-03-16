@@ -1,19 +1,14 @@
-// Here we import a helper function that will check if the email is valid
+//helper function that will check if the email is valid
 import { validateEmail } from "./utils/helpers";
 import React, { useState } from "react";
-// import emailjs from "emailjs-com";
+//emialjs we use for sending emails 
 import emailjs from '@emailjs/browser';
-
-// const emailParams = {
-//     name: 'James',
-//     notes: 'Check this out!'
-// };
 
 
 
 function Form() {
-  // Create state variables for the fields in the form
-  // We are also setting their initial values to an empty string
+
+  // set state variable and their values to an empty string
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
@@ -37,26 +32,28 @@ function Form() {
   };
 
   const handleFormSubmit = (e) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
-    // First we check to see if the email is not valid. If so we set an error message to be displayed on the page.
+    //check if the email is not valid. If so we set an error message to be displayed on the page.
     if (!validateEmail(email)) {
       setErrorMessage("Invalid email address, please try again.");
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
     }
-    else {
+    //otherwise send an email
+    else { 
       emailjs.send('service_ogffocu','template_ztxgvpn', {name, message, email}, 'dcYWRObc2znj37P7C')
       .then((response) => {
          console.log('SUCCESS!', response.status, response.text);
       }, (err) => {
          console.log('FAILED...', err);
       });
+   
+      setErrorMessage("Thank you for contacting me, I will get back to you as soon as possible.");
     }
 
 
-    // If everything goes according to plan, we want to clear out the input after a successful registration.
+    //clear out the input after sending en email
     setName("");
     setEmail("");
     setMessage("");
