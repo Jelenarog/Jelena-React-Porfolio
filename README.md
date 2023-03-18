@@ -36,7 +36,7 @@ The following image shows projects page:
 
 ## *Software*
 ___
-Social-network-api was built/deployed using the following:
+This personal portfolio was built/deployed using the following:
 - VSCode
 - Gitbash/Github
 - React
