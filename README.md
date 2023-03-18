@@ -14,7 +14,7 @@
 ___
 This is my personal portfolio created to allow any of my future colleagues, and employers to get to know me better. Certainly, one of the first steps I am making in order to do what I love and that is coding! This website has four sections. One of them  contains a little information about me, in second section you can see my previous projects, third one is where in future you will be able to download my resume and of course last one is with my contact information.
 ## *Usage*
-![User-story](../Jelena-React-Porfolio/src/Images/User-story.png)
+![User-story](././src/Images/User-story.png)
 
 <br>
 The following image shows home page:
