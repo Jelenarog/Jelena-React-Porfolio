@@ -2,6 +2,7 @@
   "name": "Jelena-React-Porfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jelenarog.github.io/Jelena-React-Porfolio/",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.5",
