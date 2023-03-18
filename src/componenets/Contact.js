@@ -40,6 +40,10 @@ function Form() {
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
     }
+    else if (!email || !name || !message){
+      setErrorMessage("Please fill out all fields and try again.");
+      return;
+    }
     //otherwise send an email
     else { 
       emailjs.send('service_ogffocu','template_ztxgvpn', {name, message, email}, 'dcYWRObc2znj37P7C')

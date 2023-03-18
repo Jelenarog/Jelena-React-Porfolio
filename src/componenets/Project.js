@@ -1,6 +1,9 @@
 import React from "react";
 import { Work } from "./subcomponents/work";
 import WorkoutProject from "../Images/HomepagePic.png";
+import TechBlog from "../Images/Tech-blog.png";
+import WatherDashboard from "../Images/Weather-Dashboard.png";
+import JsQuiz from "../Images/JavascryptQuiz.png";
 
 const Project = () => {
   return (
@@ -50,6 +53,28 @@ const Project = () => {
             gitHubRepo={"https://github.com/Jelenarog/Workout-planner"}
             description={"Workout website, click here to visit my GitHub repo."}
             link={"https://workout-planner.herokuapp.com/"}
+          />
+           <Work
+            projectName={"Tech-Blog"}
+            image={TechBlog}
+            gitHubRepo={"https://github.com/Jelenarog/Tech-blog"}
+            description={"Tech-blog website, click here to visit Github repo."}
+            link={"https://serene-bayou-31049.herokuapp.com/"}
+          />
+           <Work
+            projectName={"Weather Dashboard"}
+            image={WatherDashboard}
+            gitHubRepo={"https://github.com/Jelenarog/Weather-Dashboard"}
+          description={"Weather-dashboard website, click here to visit Github repo."}
+            link={"https://jelenarog.github.io/Weather-Dashboard/"}
+          />
+           <Work
+            projectName={"JavaScrypt quiz"}
+            image={JsQuiz }
+            gitHubRepo={"https://github.com/Jelenarog/Quiz"}
+            description={"A JavaScript quiz, click here to visit Github repo."}
+            link={"https://jelenarog.github.io/Quiz/"}
+        
           />
         </div>
         <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">

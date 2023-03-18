@@ -20,9 +20,7 @@ export default function About() {
 
      <div className="text-center">
 
-     <a className="mt-6 text-lg font-bold leading-8 text-gray-600 sm:text-4xl" href="./../Images/JelenaResume.pdf" download>Clik here to download my resume.</a>
-     
-     
+     <a className="mt-6 text-lg font-bold leading-8 text-gray-600 sm:text-4xl" href="./../Images/JelenaResume.pdf" download>Click here to download my resume.</a>
      </div>
    </div>
    <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
