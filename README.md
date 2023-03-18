@@ -28,6 +28,12 @@ The following image shows About me page:
 
 ![About-me](././src/Images/About-me.png)
 
+<br>
+The following image shows projects page:
+
+
+![About-me](././src/Images/Projects.png)
+
 ## *Software*
 ___
 Social-network-api was built/deployed using the following:
