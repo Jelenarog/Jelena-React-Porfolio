@@ -20,13 +20,13 @@ This is my personal portfolio created to allow any of my future colleagues, and 
 The following image shows home page:
 
 
-![Home](/Jelena-React-Porfolio/src/Images/Home-page-portfolio.png)
+![Home](././src/Images/Home-page-portfolio.png)
 
 <br>
 The following image shows About me page:
 
 
-![About-me](/Jelena-React-Porfolio/src/Images/About-me.png)
+![About-me](././src/Images/About-me.png)
 
 ## *Software*
 ___
