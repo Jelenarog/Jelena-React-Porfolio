@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "./../Images/Jelena-photo.jpg";
+import JelenaImage from "./../Images/Jelena-photo.jpg";
 
 export default function About() {
   return (
@@ -33,7 +33,7 @@ export default function About() {
         <div className="mx-auto max-w-xl p-10">
           <div className="content-center">
             <img
-              src={Image}
+              src={JelenaImage}
               className="rounded-full shadow-purple-900"
               alt="Jelena Rogic"
             ></img>
