@@ -1,13 +1,5 @@
 import React from "react";
-const styles = {
-  navStyles: {
-    background: "#D9D3D6",
-  },
-};
 
-const visible = () =>{
-
-}
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function Navbar({ currentPage, handlePageChange }) {
