@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Jelena-React-Porfolio/static/css/main.7c772fab.css",
+    "main.css": "/Jelena-React-Porfolio/static/css/main.da86e3da.css",
     "main.js": "/Jelena-React-Porfolio/static/js/main.c9b4914f.js",
     "static/media/HomepagePic.png": "/Jelena-React-Porfolio/static/media/HomepagePic.42dccfbbaaa7ed046ebf.png",
     "static/media/Weather-Dashboard.png": "/Jelena-React-Porfolio/static/media/Weather-Dashboard.d61f8a234c3054fd81d2.png",
@@ -10,11 +10,11 @@
     "static/media/GithubLogo.png": "/Jelena-React-Porfolio/static/media/GithubLogo.bf9854e0cf382b31bca7.png",
     "static/media/linkedinBlack.png": "/Jelena-React-Porfolio/static/media/linkedinBlack.ab891934baeb52797db0.png",
     "index.html": "/Jelena-React-Porfolio/index.html",
-    "main.7c772fab.css.map": "/Jelena-React-Porfolio/static/css/main.7c772fab.css.map",
+    "main.da86e3da.css.map": "/Jelena-React-Porfolio/static/css/main.da86e3da.css.map",
     "main.c9b4914f.js.map": "/Jelena-React-Porfolio/static/js/main.c9b4914f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c772fab.css",
+    "static/css/main.da86e3da.css",
     "static/js/main.c9b4914f.js"
   ]
 }

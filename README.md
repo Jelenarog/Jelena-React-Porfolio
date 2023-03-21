@@ -51,6 +51,6 @@ For more information about this license please visit https://opensource.org/lice
 ## *Links*
 ___
 For comments/concerns please contact us at https://github.com/Jelenarog/Jelena-React-Porfolio </br>
-Deployed website
+Deployed website https://jelenarog.github.io/Jelena-React-Porfolio/
 
 
