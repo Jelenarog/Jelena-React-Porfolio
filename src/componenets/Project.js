@@ -4,6 +4,7 @@ import WorkoutProject from "../Images/HomepagePic.png";
 import TechBlog from "../Images/Tech-blog.png";
 import WatherDashboard from "../Images/Weather-Dashboard.png";
 import JsQuiz from "../Images/JavascryptQuiz.png";
+import FarmersMarket from './../Images/Farmers-Market.png'
 
 const Project = () => {
   return (
@@ -76,6 +77,11 @@ const Project = () => {
             link={"https://jelenarog.github.io/Quiz/"}
         
           />
+            <Work
+     projectName={"Farmers Market"}
+     image={FarmersMarket}
+      link={'https://farmermarket.herokuapp.com/'}/>
+  
         </div>
         <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
           <svg
